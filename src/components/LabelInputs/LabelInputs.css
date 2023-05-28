@@ -13,9 +13,12 @@
     border-radius: 3px;
     /* flex: 1; */
     color: gray;
+    outline: none;
+    padding-left: 6px;
   }
   
   input::placeholder {
     color: gray;
+    /* padding-left: 4px; */
   }
   

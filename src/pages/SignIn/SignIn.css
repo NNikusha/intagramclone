@@ -1,11 +1,14 @@
+*{
+    font-family: 'Roboto';
+}
 .PageSignIn {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
-    margin-top: 3cm;
+    margin-top: 1cm;
     gap: 20px;
   }
   
@@ -23,7 +26,46 @@
   }
   .VectorInsta {
     width: 175px;
-    height: 51px;
+    height: 60px;
+  }
+.LeftSide{
+    position: relative;
+    width:400px ;
+}
+  .screenshot1{
+    position: absolute;
+    height: 600px;
+    background-color: black;
+    border-radius: 30px;
+  }
+  .screenshot2{
+    position: absolute;
+    height: 600px;
+    background-color: black;
+    border-radius: 30px;
+    left: 100px;
+    top: 25px;
+  }
+
+  .frame1{
+    position: absolute;
+    width: 310px;
+    height: 638px;
+    right: 110px;
+    bottom: -15px;
+    
+    
+  }
+  .frame2{
+    position: absolute;
+    width: 310px;
+    height: 632px;
+    left: 88px;
+    top: 14px;
+  }
+  .PageSignInUp{
+    display: flex;
+    gap: 16px;
   }
   .facebook-button {
     display: flex;
