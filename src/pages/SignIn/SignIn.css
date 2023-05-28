@@ -1,0 +1,97 @@
+.PageSignIn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 3cm;
+    gap: 20px;
+  }
+  
+  .SignIn {
+    display: flex;
+    border: 1px solid;
+    border-color: #efefef;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 310px;
+    padding: 20px 40px;
+    gap: 16px;
+  }
+  .VectorInsta {
+    width: 175px;
+    height: 51px;
+  }
+  .facebook-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: transparent;
+    color: #385185;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .facebook-button:hover {
+    text-decoration: none;
+  }
+  .facebookic {
+    display: flex;
+    width: 16px;
+    height: 16px;
+  }
+  .Forgot {
+    color: #385185;
+  }
+  .SecBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    height: 41px;
+    width: 310px;
+    border: 1px solid;
+    border-color: #efefef;
+    padding: 20px 40px;
+    margin-top: 10px;
+  }
+  .SignUpLink {
+    color: #0095f6;
+    text-decoration: none;
+  }
+  .ThirdBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60px;
+    width: 390px;
+    /* border: 1px solid; */
+    margin-top: 10px;
+  }
+  .TwoLogo {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .AppStore {
+    width: 136px;
+    height: 40px;
+  }
+  .GooglePlay {
+    width: 136px;
+    height: 40px;
+  }
+  Footer {
+    .Footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+  }
+  

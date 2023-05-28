@@ -1,0 +1,19 @@
+.separator {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #999;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #999;
+  }
+  
+  .text {
+    margin: 0 10px;
+  }
+  

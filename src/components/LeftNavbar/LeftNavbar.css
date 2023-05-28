@@ -1,0 +1,60 @@
+.left-navbar {
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2cm;
+  }
+  
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 16px;
+  }
+  
+  .nav-menu div {
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    gap: 16px;
+    border-radius: 8px;
+    height: 44px;
+    cursor: pointer;
+  }
+  
+  .nav-menu div:hover {
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .nav-menu div:hover svg {
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+  
+  .nav-menu svg {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .menu-div {
+    display: flex;
+    align-items: center;
+    padding-left: 6px;
+    gap: 16px;
+    border-radius: 8px;
+    height: 44px;
+    margin-top: 110px;
+    cursor: pointer;
+  }
+  
+  .menu-div:hover {
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .Vector {
+    width: 100px;
+    height: 30px;
+  }
+  
