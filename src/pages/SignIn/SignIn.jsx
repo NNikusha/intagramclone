@@ -29,16 +29,18 @@ const SignIn = () => {
           <form className="SignIn">
             <VectorImg />
             <LabelInputs
-              inputType="text" placeholder="Phone Number, Username, or Email"/>
+              inputType="text"
+              placeholder="Phone Number, Username, or Email"
+            />
             <LabelInputs inputType="password" placeholder="Password" />{" "}
             <SubmitButton text="Log In" />
             <Separator />
-            <SubmitButton2/>
+            <SubmitButton2 />
             <div className="Forgot">Forgot Password?</div>
           </form>
           <div className="SecBox">
             <p> Don't Have an Account ? </p>
-            <Link className="SignUpLink" to={"/"}>
+            <Link className="SignUpLink" to={"/signup"}>
               Sign Up
             </Link>
           </div>

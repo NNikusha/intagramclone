@@ -45,7 +45,7 @@ const SignUp = () => {
       </div>
       <div className="SignUpSecBox">
         <p> Have an account? </p>
-        <Link className="SignUpLink" to={"/"}>
+        <Link className="SignUpLink" to={"/signin"}>
           Log In{" "}
         </Link>
       </div>
@@ -58,9 +58,6 @@ const SignUp = () => {
           <img className="GooglePlay" src="/images/GooglePlay.png" />
         </div>
       </div>
-      <Link className="SignUpLink" to={"/"}>
-        Sign Up
-      </Link>
       <Footer/>
     </div>
   );
