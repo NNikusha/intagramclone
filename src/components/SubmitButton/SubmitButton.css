@@ -1,0 +1,19 @@
+.facebook-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: transparent;
+    color: #385185;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .facebook-button:hover {
+    text-decoration: none;
+  }
+  .facebookic {
+    display: flex;
+    width: 16px;
+    height: 16px;
+  }

@@ -1,0 +1,69 @@
+
+.PageSignUp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 0.5cm;
+    gap: 20px;
+}
+.PageSignUpForm{
+    display: flex;
+    border: 1px solid;
+    border-color: #efefef;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    padding: 20px 40px;
+    gap: 16px;
+}
+.SignUpText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.SignUpText2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+    gap: 16px;
+}
+.SignUpText2-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.SignUpText2-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.SignUpText2   span {
+    color: #00376b;
+    cursor: pointer;
+}
+
+.SignUpSecBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    height: 38px;
+    width: 280px;
+    border: 1px solid;
+    border-color: #efefef;
+    padding: 20px 40px;
+    margin-top: 10px;
+  }

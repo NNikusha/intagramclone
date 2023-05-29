@@ -4,6 +4,8 @@ import Separator from "../../components/Separator/Separator";
 import Footer from "../../components/Footer/Footer";
 import "./SignIn.css";
 import { Link } from "react-router-dom";
+import VectorImg from "../../components/VectorImg/Vector";
+import SubmitButton2 from "../../components/SubmitButton/SubmitButton";
 
 const SignIn = () => {
   return (
@@ -12,35 +14,26 @@ const SignIn = () => {
         <div className="LeftSide">
           <div>
             <img className="screenshot1" src="/images/screenshot2.png" />
-            <img  className="frame1" src="/images/frame.png" alt="frame" />
+            <img className="frame1" src="/images/frame.png" alt="frame" />
           </div>
           <div>
-            <img className="screenshot2"  src="/images/screenshot1.png" alt="feed"/>
-            <img  className="frame2" src="/images/frame.png" alt="frame" />
+            <img
+              className="screenshot2"
+              src="/images/screenshot1.png"
+              alt="feed"
+            />
+            <img className="frame2" src="/images/frame.png" alt="frame" />
           </div>
         </div>
         <div className="RightSide">
           <form className="SignIn">
-            <div>
-              <img
-                className="VectorInsta"
-                src="/images/Vector.png"
-                alt="Vector"
-              />
-            </div>
+            <VectorImg />
             <LabelInputs
-              inputType="text"
-              placeholder="Phone Number, Username, or Email"
-            />
+              inputType="text" placeholder="Phone Number, Username, or Email"/>
             <LabelInputs inputType="password" placeholder="Password" />{" "}
             <SubmitButton text="Log In" />
             <Separator />
-            <div className="facebook-button">
-              <div className="facebookic">
-                <img src="/images/facebookic.png" alt="Facebook Icon" />
-              </div>
-              <p>Log in with Facebook</p>
-            </div>
+            <SubmitButton2/>
             <div className="Forgot">Forgot Password?</div>
           </form>
           <div className="SecBox">

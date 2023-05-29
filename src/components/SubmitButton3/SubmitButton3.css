@@ -1,0 +1,26 @@
+.facebook-button3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #0095f6;
+    color:white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .facebook-button3:hover {
+    text-decoration: none;
+  }
+  .facebookic3 {
+    display: flex;
+    width: 16px;
+    height: 16px;
+  }
+
+
+ 
