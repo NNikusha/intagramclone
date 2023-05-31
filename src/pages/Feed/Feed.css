@@ -7,10 +7,4 @@
 display: flex;
 flex-direction: column;
 }
-.homepage__nav {
-  flex: 0.2;
-}
 
-.homepage__timeLine {
-  flex: 0.8;
-}

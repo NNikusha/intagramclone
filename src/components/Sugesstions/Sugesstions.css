@@ -1,0 +1,87 @@
+.suggestions {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 30px;
+    width: 320px;
+    margin-left: 860px;
+
+  }
+  
+  .suggestions__title {
+    display: flex;
+    color: grey;
+    font-weight: bold;
+    margin-bottom: 15px;
+    gap: 72px;
+  }
+
+ .see_all{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+ }
+  
+  .username__left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .username__info,
+  .mainUsername__info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .relation {
+    color: grey;
+    font-size: 12px;
+  }
+  
+  .suggestions__username {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+  }
+  .Usersuggestions__username{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .follow__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0095f6;
+    font-weight: bold;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .follow__button:hover {
+    color: white;
+  }
+  
+  .username {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .suggestions__usernames {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  

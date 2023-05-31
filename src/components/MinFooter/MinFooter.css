@@ -1,0 +1,12 @@
+.min-footer {
+    width: 320px;
+    margin-left: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    justify-content: space-between;
+
+
+}
