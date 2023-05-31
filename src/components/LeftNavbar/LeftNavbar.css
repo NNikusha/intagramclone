@@ -1,9 +1,12 @@
 .left-navbar {
     width: 200px;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
-    padding-top: 2cm;
+    padding-top: 0.5cm;
+    padding-left: 0.3cm;
+    position: fixed;
+    background-color: white;
   }
   
   .nav-menu {
@@ -38,6 +41,10 @@
     height: 28px;
   }
   
+  .menu-div svg {
+    width: 28px;
+    height: 28px;
+  }
   .menu-div {
     display: flex;
     align-items: center;
@@ -45,8 +52,9 @@
     gap: 16px;
     border-radius: 8px;
     height: 44px;
-    margin-top: 110px;
+    margin-top: 20px;
     cursor: pointer;
+    
   }
   
   .menu-div:hover {

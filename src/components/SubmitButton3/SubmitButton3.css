@@ -20,6 +20,8 @@
     display: flex;
     width: 16px;
     height: 16px;
+    background-color: white;
+    border-radius: 1.5px;
   }
 
 

@@ -1,0 +1,8 @@
+.timeline{
+    display: flex;
+    width: 70%;
+    margin-left: 290px;
+}
+.timeline__posts{
+    width: 470px;
+}

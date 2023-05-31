@@ -55,10 +55,11 @@ const LeftNavbar = () => {
           <p>Profile</p>
         </div>
       </div>
-      <div className="menu-div">
+        <div className="menu-div">
         <AiOutlineMenu />
         <p>More</p>
       </div>
+      
     </div>
   );
 };

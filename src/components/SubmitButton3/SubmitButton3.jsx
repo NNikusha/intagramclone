@@ -6,7 +6,7 @@ const SubmitButton3 = ({ text }) => {
     <div className="facebook-button3">
       <div className="facebookic3">
         <img
-          src="/images/whitebook.png"
+          src="/images/FB_Icon.svg"
           alt="Facebook Icon"
         />
       </div>
