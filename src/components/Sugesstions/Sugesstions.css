@@ -1,10 +1,9 @@
 .suggestions {
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
-    margin-top: 30px;
+    position: absolute;
+    gap: 10px;
+top: 50px;
     width: 320px;
-    margin-left: 860px;
+    margin-left: 920px;
 
   }
   

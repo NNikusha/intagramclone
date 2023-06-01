@@ -5,8 +5,11 @@ import Timeline from "../../components/Timeline/Timeline";
 import Story from "../../components/Story/Story";
 import Sugesstions from "../../components/Sugesstions/Sugesstions";
 import MinFooter from "../../components/MinFooter/MinFooter";
+import { useParams } from "react-router-dom";
 
 const Feed = () => {
+    const { uid } = useParams();
+
   return (
     <div className="homepage">
         <LeftNavBar />
@@ -14,8 +17,8 @@ const Feed = () => {
         <div className="homepageCentre">
           <Story/>
         <Sugesstions/>
-        <MinFooter/>
         <Timeline />
+        {/* <MinFooter/> */}
         </div>
     </div>
   );

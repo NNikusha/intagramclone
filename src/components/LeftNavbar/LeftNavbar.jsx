@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./LeftNavbar.css";
-
 import {
   AiOutlineHome,
   AiOutlineCompass,
@@ -14,9 +13,21 @@ import {
 import { CiSearch } from "react-icons/ci";
 import { RiMessengerLine } from "react-icons/ri";
 import { FaRegUserCircle } from "react-icons/fa";
+import DialogBox from "../DialogBox/DialogBox";
 
 const LeftNavbar = () => {
   const [menu, setMenu] = useState("");
+  const [isDialogOpen, setDialogOpen] = useState(false); // Track dialog visibility
+
+  // Function to open the dialog box
+  const openDialog = () => {
+    setDialogOpen(true);
+  };
+
+  // Function to close the dialog box
+  const closeDialog = () => {
+    setDialogOpen(false);
+  };
 
   return (
     <div className="left-navbar">
@@ -46,7 +57,7 @@ const LeftNavbar = () => {
           <AiOutlineHeart />
           <p>Notifications</p>
         </div>
-        <div>
+        <div onClick={openDialog}>
           <AiOutlinePlusCircle />
           <p>Create</p>
         </div>
@@ -55,11 +66,12 @@ const LeftNavbar = () => {
           <p>Profile</p>
         </div>
       </div>
-        <div className="menu-div">
+      <div className="menu-div">
         <AiOutlineMenu />
         <p>More</p>
       </div>
-      
+
+      {isDialogOpen && <DialogBox onClose={closeDialog} />}
     </div>
   );
 };

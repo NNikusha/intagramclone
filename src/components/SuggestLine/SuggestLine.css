@@ -23,6 +23,7 @@
     display: flex;
     align-items: center;
     gap: 72px;
+    margin-top: 5px;
   }
   
   .follow__button {
