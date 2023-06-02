@@ -12,14 +12,14 @@
 .PageSignUpForm{
     display: flex;
     border: 1px solid;
-    border-color: #efefef;
+    border-color: #e1d4d4;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: fit-content;
+    height: 570px;
     width: fit-content;
     padding: 20px 40px;
-    gap: 16px;
+    gap: 13px;
 }
 .SignUpText{
     display: flex;
@@ -63,7 +63,7 @@
     height: 38px;
     width: 280px;
     border: 1px solid;
-    border-color: #efefef;
+    border-color: #e1d4d4;
     padding: 20px 40px;
     margin-top: 10px;
   }

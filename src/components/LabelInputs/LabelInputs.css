@@ -1,24 +1,40 @@
 .inputs {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-  
-  input {
-    display: flex;
-    background-color: rgb(250, 250, 250);
-    border: 1px solid rgb(219, 219, 219);
-    height: 38px;
-    border-radius: 3px;
-    /* flex: 1; */
-    color: gray;
-    outline: none;
-    padding-left: 6px;
-  }
-  
-  input::placeholder {
-    color: gray;
-    /* padding-left: 4px; */
-  }
-  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+
+
+input {
+  display: flex;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(219, 219, 219);
+  height: 35px;
+  border-radius: 3px;
+  /* flex: 1; */
+  color:black;
+  outline: none;
+  padding-left: 6px;
+}
+
+input::placeholder {
+  color: gray;
+  /* padding-left: 4px; */
+}
+
+.icon {
+  margin-left: 235px;
+  margin-top: 7px;
+  position: absolute;
+
+}
+
+.icon.cancel {
+  color: red;
+}
+
+.icon.check {
+  color: green;
+}

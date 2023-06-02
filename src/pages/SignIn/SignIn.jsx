@@ -16,9 +16,8 @@ const SignIn = () => {
   const [loginEmail, setLoginEmail] = useState("");
   const [loginPassword, setLoginPassword] = useState("");
   const login = async (e) => {
-
     e.preventDefault();
-    
+
     try {
       const userCredential = await signInWithEmailAndPassword(
         auth,
@@ -26,11 +25,18 @@ const SignIn = () => {
         loginPassword
       );
       const user = userCredential.user;
-      console.log("User registered:", user);
-      navigate("/")
-      console.log(user)
+      console.log("User logged in:", user);
+      navigate("/");
     } catch (error) {
-      console.log("Registration error:", error.message);
+      if (error.code === "auth/invalid-email") {
+        console.log("Email is not valid");
+      } else if (error.code === "auth/missing-password") {
+        console.log("Password is missing");
+      } else if (error.code === "auth/wrong-password") {
+        console.log("Wrong password");
+      } else {
+        console.log("Login error:", error.message);
+      }
     }
   };
   return (
@@ -57,15 +63,15 @@ const SignIn = () => {
               inputType="text"
               placeholder="Phone Number, Username, or Email"
               onChange={(event) => setLoginEmail(event.target.value)}
+              showIcon={false}
             />
             <LabelInputs
               inputType="password"
               placeholder="Password"
               onChange={(event) => setLoginPassword(event.target.value)}
+              showIcon={false}
             />{" "}
-
-            <SubmitButton text="Log In" />
-            
+            <SubmitButton text="Log in" />
             <Separator />
             <SubmitButton2 />
             <div className="Forgot">Forgot Password?</div>

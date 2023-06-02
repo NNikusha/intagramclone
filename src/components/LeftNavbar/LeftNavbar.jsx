@@ -14,19 +14,26 @@ import { CiSearch } from "react-icons/ci";
 import { RiMessengerLine } from "react-icons/ri";
 import { FaRegUserCircle } from "react-icons/fa";
 import DialogBox from "../DialogBox/DialogBox";
+import DialogBoxMenu from "../DialogBoxMenu/DialogBoxMenu";
 
 const LeftNavbar = () => {
   const [menu, setMenu] = useState("");
   const [isDialogOpen, setDialogOpen] = useState(false); // Track dialog visibility
+  const [isMenuDialogOpen, setMenuDialogOpen] = useState(false); // Track menu dialog visibility
 
   // Function to open the dialog box
-  const openDialog = () => {
-    setDialogOpen(true);
+  const openDialog = (option) => {
+    if (option === "More") {
+      setMenuDialogOpen(true);
+    } else {
+      setDialogOpen(true);
+    }
   };
 
-  // Function to close the dialog box
+  // Function to close the dialog boxes
   const closeDialog = () => {
     setDialogOpen(false);
+    setMenuDialogOpen(false);
   };
 
   return (
@@ -57,21 +64,22 @@ const LeftNavbar = () => {
           <AiOutlineHeart />
           <p>Notifications</p>
         </div>
-        <div onClick={openDialog}>
+        <div onClick={() => openDialog("Create")}>
           <AiOutlinePlusCircle />
           <p>Create</p>
         </div>
-        <div>
+        <div onClick={() => openDialog("Profile")}>
           <FaRegUserCircle />
           <p>Profile</p>
         </div>
       </div>
-      <div className="menu-div">
+      <div className="menu-div" onClick={() => openDialog("More")}>
         <AiOutlineMenu />
         <p>More</p>
       </div>
 
       {isDialogOpen && <DialogBox onClose={closeDialog} />}
+      {isMenuDialogOpen && <DialogBoxMenu onClose={closeDialog} />}
     </div>
   );
 };

@@ -1,13 +1,17 @@
 .submit-button {
+  display: flex;
     width: 100%;
+    height: 30px;
     padding: 10px;
     font-size: var(--system-14-font-size);
     font-weight: bold;
     border: none;
-    border-radius: 3px;
+    border-radius: 10px;
     background-color: #0095f6;
     color: white;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
   }
   
   .submit-button:hover {

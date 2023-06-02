@@ -1,0 +1,46 @@
+.dialog-box {
+    display: flex;
+    flex-direction: column;    
+    top:57%;
+    left: 11%;
+    transform: translate(-50%, -50%);
+    width: 220px;
+    height: 350px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dialog-box ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    cursor: pointer;
+  }
+  
+  .dialog-box ul li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 15px;
+    flex-direction: row;   
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 8px 0;
+    gap: 15px;
+    height: 13%;
+    cursor: pointer;
+
+  }
+  
+  .dialog-box hr {
+    margin: 8px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+    height: 5%;
+    cursor: pointer;
+
+  }
+  

@@ -17,12 +17,12 @@
   .SignIn {
     display: flex;
     border: 1px solid;
-    border-color: #efefef;
+    border-color: #e1d4d4;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 400px;
-    width: 310px;
+    width: 280px;
     padding: 20px 40px;
     gap: 16px;
   }
@@ -54,9 +54,7 @@
     width: 310px;
     height: 638px;
     right: 110px;
-    bottom: -15px;
-    
-    
+    bottom: -15px;    
   }
   .frame2{
     position: absolute;
@@ -97,9 +95,9 @@
     justify-content: center;
     gap: 16px;
     height: 41px;
-    width: 310px;
+    width: 280px;
     border: 1px solid;
-    border-color: #efefef;
+    border-color: #e1d4d4;
     padding: 20px 40px;
     margin-top: 10px;
   }
