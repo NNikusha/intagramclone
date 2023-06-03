@@ -16,6 +16,7 @@ const Story = () => {
     { id: 1, username: 'user1', imageUrl: '/images/OIP.jpg' },
     { id: 2, username: 'user2', imageUrl: '/images/OIP.jpg' },
     { id: 3, username: 'user3', imageUrl: '/images/OIP.jpg' },
+    
     // Add more stories as needed
   ];
 

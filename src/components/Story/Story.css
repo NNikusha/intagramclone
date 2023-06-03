@@ -1,28 +1,31 @@
 .stories-container {
-    width: 65%;
-    overflow-x: auto;
-    white-space: nowrap;
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    padding: 20px;
-    scroll-behavior: smooth;
-    /* Add the following line */
-    overflow-y: hidden;
-  }
-  
-  
-  
-  .horizontal-scroll {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    padding: 10px 0;
-    scrollbar-width: thin;
-    scrollbar-color: rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0);
-  }
-  
+  width: 65%;
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+  scroll-behavior: smooth;
+  /* Add the following line */
+  overflow-y: hidden;
+}
+
+.horizontal-scroll {
+  display: flex;
+  /* Remove the following line */
+  /* overflow-x: auto; */
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding: 10px 0;
+  /* Add a fixed width */
+  width: 100%;
+  /* Adjust as needed */
+  max-width: 500px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0);
+}
+
   .story-circles {
     flex-shrink: 0;
     margin-right: 10px;

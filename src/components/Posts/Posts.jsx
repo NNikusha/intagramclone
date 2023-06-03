@@ -7,12 +7,11 @@ import { ChatBubbleOutline } from "@mui/icons-material";
 import { Telegram } from "@mui/icons-material";
 import { BookmarkBorder } from "@mui/icons-material";
 
-const Post = ({ user, postImage, likes, timestamp }) => {
+const Post = ({ user, postImage, likes, timestamp,caption }) => {
   return (
     <div className="posts">
       <div className="post__header">
         <div className="post__headerAuthor">
-          <Avatar>{user.charAt(0).toUpperCase()}</Avatar>
           {user} • <span> {timestamp} </span>
         </div>
         <MoreHorizIcon />
@@ -31,6 +30,7 @@ const Post = ({ user, postImage, likes, timestamp }) => {
             <BookmarkBorder className="postIcon" />
           </div>
         </div>
+        <p>{caption}</p>
         Liked by {likes} people.
       </div>
     </div>

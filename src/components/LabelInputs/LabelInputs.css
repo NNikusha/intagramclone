@@ -19,6 +19,18 @@ input {
   padding-left: 6px;
 }
 
+.show-password-icon{
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 229px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+.show-password-icon:hover{
+  color: rgb(194, 194, 173);
+}
+
 input::placeholder {
   color: gray;
   /* padding-left: 4px; */

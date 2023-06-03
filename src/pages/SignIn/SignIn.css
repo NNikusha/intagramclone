@@ -137,4 +137,14 @@
       margin-top: 20px;
     }
   }
+
+  .error-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(201, 47, 47);
+    font-size: 14px;
+    margin-top: 10px;
+  }
   

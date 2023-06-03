@@ -86,6 +86,7 @@ const SignUp = () => {
       try {
         const userCredential = await createUserWithEmailAndPassword(auth, email, password);
         const user = userCredential.user;
+        console.log(user)
         await addItemsIntoDb(userObj, "users", user.uid);
       } catch (error) {
         console.log("Registration error:", error.message);
